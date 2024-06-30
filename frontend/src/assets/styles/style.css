@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@500&display=swap');
+@import url('http://fontssip.rf.gd/fuentes/fuente.css'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500;700&display=swap');
+
+html {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: rgb(30,30,30);
+	color: white;
+	--fondo: rgb(30,30,30);
+	--blanco: #fafafa; 
+	--sombras:#222f3e; 
+	--letra:rgb(188,133,66);
+	--rojo:#ea2a3d;
+	--rojo-oscuro:#c0392b;
+	--rojo-transparente:rgb(234,42,61, 0.7);
+	--gris: rgba(216, 216, 216, 0.7);
+	--verde-ok:#2ecc71;
+	--verde-oscuro:#27ae60;
+}
+b {
+	font-weight: bold;
+}
+a {
+	color: var(--negro);
+	user-select: none;
+}
+
+a:hover {
+	color: var(--rojo);
+}
+
+div.container {
+	padding: 2rem 7rem;
+}
+h3 {
+	margin-bottom: .2em;
+	color: var(--blanco);
+	font-size: 2.2em;
+	font-family: 'Noto Sans JP', 'serif';
+}
+
